@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   website-collection:
-    image: ${acr}/galgame/web_main:v1.0
+    image: ${acr}/galgame/web_main:v1.0.0
     container_name: website-collection
     ports:
       - "80:80"
