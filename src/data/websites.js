@@ -50,6 +50,6 @@ export const websites = [
   
   // 我的自研网址示例
   { id: 24, name: '个人博客', url: 'https://myblog.example.com', category: 'my', icon: '📝', isMy: true },
-  { id: 25, name: '项目展示', url: 'https://projects.example.com', category: 'my', icon: '🚀', isMy: true },
+  { id: 25, name: '2048小游戏', url: 'http://106.52.62.222:10000', category: 'my', icon: '🚀', isMy: true },
   { id: 26, name: '在线工具', url: 'https://tools.example.com', category: 'my', icon: '🔨', isMy: true }
 ]

@@ -2,8 +2,8 @@ version: '3.8'
 
 services:
   website-collection:
-    image: crpi-l14b1sc286yk94go.cn-hangzhou.personal.cr.aliyuncs.com/galgame/web_main:v1.0.1
-    container_name: website-collection
+    image: crpi-l14b1sc286yk94go.cn-hangzhou.personal.cr.aliyuncs.com/galgame/web_main:v1.1.1
+    container_name: web_main
     ports:
       - "80:80"
     restart: unless-stopped
@@ -17,10 +17,10 @@ services:
       retries: 3
       start_period: 40s
     networks:
-      - website-network
+      - server
 
 networks:
-  website-network:
+  server:
     driver: bridge
 
 # 可选：数据卷配置（如需要持久化）
